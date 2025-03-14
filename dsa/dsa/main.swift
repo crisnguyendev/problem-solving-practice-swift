@@ -7,9 +7,9 @@
 
 import Foundation
 
-let word1 = "abc"
-let word2 = "abcd"
+let word1 = "ABCABC"
+let word2 = "ABC"
 
-let result = MergeStringsAlternately().mergeAlternately(word1, word2)
+let result = GreatestCommonDivisorOfStrings().gcdOfStrings(word1, word2)
 print(result)
 
