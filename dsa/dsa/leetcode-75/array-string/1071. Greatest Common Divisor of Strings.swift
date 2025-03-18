@@ -5,7 +5,7 @@
 //  Created by Vu Nguyen on 3/14/25.
 //
 
-struct GreatestCommonDivisorOfStrings {
+class GreatestCommonDivisorOfStrings {
     func gcdOfStrings(_ str1: String, _ str2: String) -> String {
         if str1.appending(str2) != str2.appending(str1) {
             return ""

@@ -8,7 +8,7 @@
 // Time Complexity: O(m + n)
 // Space Complexity:O(m + n)
 
-struct MergeStringsAlternately {
+class MergeStringsAlternately {
     func mergeAlternately(_ word1: String, _ word2: String) -> String {
         let chars1: [Character] = Array(word1)
         let chars2: [Character] = Array(word2)

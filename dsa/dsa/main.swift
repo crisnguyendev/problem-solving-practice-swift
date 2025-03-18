@@ -7,9 +7,8 @@
 
 import Foundation
 
-let word1 = "ABCABC"
-let word2 = "ABC"
+var chars: [Character] = ["a","a","b","b","c","c","c"]
 
-let result = GreatestCommonDivisorOfStrings().gcdOfStrings(word1, word2)
+let result = StringCompression().compress(&chars)
 print(result)
 
