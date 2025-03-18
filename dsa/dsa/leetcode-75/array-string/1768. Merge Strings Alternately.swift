@@ -5,7 +5,8 @@
 //  Created by Vu Nguyen on 3/13/25.
 //
 
-// Complexity:
+// Time Complexity: O(m + n)
+// Space Complexity:O(m + n)
 
 class MergeStringsAlternately {
     func mergeAlternately(_ word1: String, _ word2: String) -> String {

@@ -7,9 +7,8 @@
 
 import Foundation
 
-let word1 = "abc"
-let word2 = "abcd"
+var chars: [Character] = ["a","a","b","b","c","c","c"]
 
-let result = MergeStringsAlternately().mergeAlternately(word1, word2)
+let result = StringCompression().compress(&chars)
 print(result)
 
