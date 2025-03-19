@@ -16,7 +16,7 @@ class GreatestCommonDivisorOfStrings {
         let index = str1.index(str1.startIndex, offsetBy: gcd)
         return String(str1[..<index])
     }
-    
+
     func gcd(_ a: Int, _ b: Int) -> Int {
         var a = abs(a)
         var b = abs(b)

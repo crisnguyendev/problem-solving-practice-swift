@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B88B94CE2D83E2B900C5DAEE /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsa; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88B94CE2D83E2B900C5DAEE /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = dsa; path = "/Volumes/DATA/workspace/ios/problem-solving-practice-swift/problem-solving-practice-swift/dsa/build/Debug/dsa"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				B88B94D02D83E2B900C5DAEE /* dsa */,
-				B88B94CF2D83E2B900C5DAEE /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B88B94CF2D83E2B900C5DAEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B88B94CE2D83E2B900C5DAEE /* dsa */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +98,7 @@
 			mainGroup = B88B94C52D83E2B900C5DAEE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B88B94CF2D83E2B900C5DAEE /* Products */;
+			productRefGroup = B88B94C52D83E2B900C5DAEE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

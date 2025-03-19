@@ -8,9 +8,9 @@
 class CanPlaceFlowers {
     func canPlaceFlowers(_ flowerbed: [Int], _ n: Int) -> Bool {
         var flowerbed = flowerbed
-        var i: Int = 0
-        var planted: Int = 0
-        
+        var i = 0
+        var planted = 0
+
         while planted < n && i < flowerbed.count {
             if flowerbed[i] == 1 {
                 i += 1
