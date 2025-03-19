@@ -27,7 +27,7 @@ class ReverseVowelsString {
         }
         return String(chars)
     }
-    
+
     private func isVowel(_ c: Character) -> Bool {
         switch c {
         case "a", "e", "i", "o", "u", "A", "E", "I", "O", "U":
@@ -37,4 +37,3 @@ class ReverseVowelsString {
         }
     }
 }
-

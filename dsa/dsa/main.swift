@@ -7,8 +7,7 @@
 
 import Foundation
 
-var chars: [Character] = ["a","a","b","b","c","c","c"]
+var nums: [Int] = [1,1]
 
-let result = StringCompression().compress(&chars)
+let result = ContainerWitMostWater().maxArea(nums)
 print(result)
-

@@ -7,7 +7,7 @@
 
 class KidsWithGreatestNumberCandies {
     func kidsWithCandies(_ candies: [Int], _ extraCandies: Int) -> [Bool] {
-        var greatestCandies: Int  = 0
+        var greatestCandies = 0
         for candy in candies {
             if candy > greatestCandies {
                 greatestCandies = candy

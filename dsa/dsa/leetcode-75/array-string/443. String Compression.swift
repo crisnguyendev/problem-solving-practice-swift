@@ -9,7 +9,7 @@ class StringCompression {
     func compress(_ chars: inout [Character]) -> Int {
         var index = 0
         var i = 0
-        
+
         while i < chars.count {
             let c = chars[i]
             var count = 0
