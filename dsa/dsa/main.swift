@@ -7,7 +7,7 @@
 
 import Foundation
 
-var nums: [Int] = [1,1]
+var nums = [1, 7, 3, 6, 5, 6]
 
-let result = ContainerWitMostWater().maxArea(nums)
+let result = FindPivotIndex().pivotIndex(nums)
 print(result)

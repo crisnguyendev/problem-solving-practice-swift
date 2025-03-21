@@ -23,14 +23,14 @@ class MaxNumbeKSumPairs {
         }
         return count
     }
-    
+
     func maxOperationsOptimal(_ nums: [Int], _ k: Int) -> Int {
-        var nums = nums.sorted()
+        let nums = nums.sorted()
         var left = 0
         var right = nums.count - 1
         var count = 0
         while left < right {
-            let sum  = nums[left] + nums[right]
+            let sum = nums[left] + nums[right]
             if sum == k {
                 count += 1
                 left += 1
