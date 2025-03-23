@@ -7,7 +7,8 @@
 
 import Foundation
 
-var nums = [1, 7, 3, 6, 5, 6]
-
-let result = FindPivotIndex().pivotIndex(nums)
+var nums1 = [5,10,-5]
+var nums2 = [8,-8]
+var nums3 = [10,2,-5]
+let result = AsteroidCollision().asteroidCollision(nums2)
 print(result)
