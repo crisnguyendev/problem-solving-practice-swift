@@ -1,4 +1,4 @@
-    //
+//
 //  933. Number of Recent Calls.swift
 //  dsa
 //
@@ -9,10 +9,8 @@ class RecentCounter {
     let INTERVAL = 3000
     var pings: [Int] = []
 
-    init() {
-        
-    }
-    
+    init() {}
+
     func ping(_ t: Int) -> Int {
         pings.append(t)
         while let oldPing = pings.first, t - oldPing > INTERVAL {

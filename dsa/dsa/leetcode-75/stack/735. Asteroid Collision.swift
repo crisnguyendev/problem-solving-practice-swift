@@ -11,7 +11,7 @@ class AsteroidCollision {
         stack.reserveCapacity(asteroids.count)
         for next in asteroids {
             var current = next
-            while let last = stack.last, last > 0 && current < 0 {
+            while let last = stack.last, last > 0, current < 0 {
                 if abs(last) < abs(current) {
                     stack.removeLast()
                     continue

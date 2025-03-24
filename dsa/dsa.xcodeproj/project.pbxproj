@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B881F2AE2D8B381000B8F5A5 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = dsa; path = "/Volumes/DATA/workspace/ios/problem-solving-practice-swift/problem-solving-practice-swift/dsa/build/Debug/dsa"; sourceTree = "<absolute>"; };
+		B87D05C82D9072DA00B310E3 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = dsa; path = "/Volumes/DATA/workspace/ios/problem-solving-practice-swift/problem-solving-practice-swift/dsa/build/Debug/dsa"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -70,7 +70,7 @@
 			packageProductDependencies = (
 			);
 			productName = dsa;
-			productReference = B881F2AE2D8B381000B8F5A5 /* dsa */;
+			productReference = B87D05C82D9072DA00B310E3 /* dsa */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

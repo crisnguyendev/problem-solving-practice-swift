@@ -9,7 +9,7 @@ class Dota2Senate {
     func predictPartyVictory(_ senate: String) -> String {
         var radiantQueue: [Int] = []
         var direQueue: [Int] = []
-        
+
         for (i, char) in senate.enumerated() {
             if char == "R" {
                 radiantQueue.append(i)
@@ -17,7 +17,7 @@ class Dota2Senate {
                 direQueue.append(i)
             }
         }
-        
+
         while !radiantQueue.isEmpty && !direQueue.isEmpty {
             let radiantIndex = radiantQueue.removeFirst()
             let direIndex = direQueue.removeFirst()
@@ -27,7 +27,7 @@ class Dota2Senate {
                 direQueue.append(direIndex + senate.count)
             }
         }
-        
+
         return radiantQueue.isEmpty ? "Dire" : "Radiant"
     }
 }
