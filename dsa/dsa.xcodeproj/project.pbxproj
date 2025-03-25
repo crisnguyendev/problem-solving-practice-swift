@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B87D05C82D9072DA00B310E3 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = dsa; path = "/Volumes/DATA/workspace/ios/problem-solving-practice-swift/problem-solving-practice-swift/dsa/build/Debug/dsa"; sourceTree = "<absolute>"; };
+		B831264F2D91C9AE00DADC69 /* dsa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dsa; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				B88B94D02D83E2B900C5DAEE /* dsa */,
+				B831264F2D91C9AE00DADC69 /* dsa */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 			packageProductDependencies = (
 			);
 			productName = dsa;
-			productReference = B87D05C82D9072DA00B310E3 /* dsa */;
+			productReference = B831264F2D91C9AE00DADC69 /* dsa */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
